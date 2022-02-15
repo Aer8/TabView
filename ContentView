@@ -1,0 +1,56 @@
+ //
+//  ContentView.swift
+//  Empty Template
+//
+//  Created by The Code Teacher
+//
+
+import SwiftUI
+
+struct ContentView : View {
+    @State private var username: String = ""
+@State private var password: String = ""
+
+    
+    var body: some View {
+        
+TabView {
+   Text("")
+        .font(.system(size: 30, weight: .bold, design: .rounded))
+        .tabItem {
+            Image(systemName: "map.fill")
+            Text("Explore")
+      
+
+        }
+ 
+    Text("")
+        .font(.system(size: 30, weight: .bold, design: .rounded))
+        .tabItem {
+            Image(systemName: "person.fill")
+            Text("Community")
+        }
+ 
+    Text("")
+        .font(.system(size: 30, weight: .bold, design: .rounded))
+        .tabItem {
+            Image(systemName: "plus.circle.fill")
+            Text("Create")
+        }
+ 
+    Text("")
+        .font(.system(size: 30, weight: .bold, design: .rounded))
+        .tabItem {
+            Image(systemName: "wrench.fill")
+            Text("Activites")}
+          
+            
+
+
+                }
+        }
+    }
+}
+
+  }
+}
